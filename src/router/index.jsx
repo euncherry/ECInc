@@ -8,7 +8,7 @@ const AppRouter = () => {
 
     return (
         <>
-            <BrowserRouter>
+            <BrowserRouter basename="eclnc">
                 <Routes>
                     <Route exact path="/" element={<MainRouter />} />
                     <Route exact path="/exercise" element={<ExerciseRouter />} />
