@@ -72,7 +72,7 @@ const MainContent = () => {
                                     <Col span={6} justify={"flex-start"}>
                                         <Col span={12} justify="space-between">
                                             <Typo size={"1.1rem"} weight={"500"} >이름</Typo>
-                                            <Typo size={"1.1rem"} weight={"500"}>Kim</Typo>
+                                            <Typo size={"1.1rem"} weight={"500"}>채은잉</Typo>
                                         </Col>
                                         <Col span={12} justify="space-between">
                                             <Typo size={"1.1rem"} weight={"500"}>나이</Typo>
