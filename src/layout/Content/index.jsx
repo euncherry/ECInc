@@ -9,7 +9,7 @@ const ContentStyle = styled.div`
     justify-content : center;
     margin : 0 auto;
     flex-wrap : wrap;
-    padding : 3.2vh 2.2vw;
+    padding : 5.2vh 4.2vw;
     flex-direction: column;
     box-sizing: border-box;
     background-color: inherit;

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createGlobalStyle } from 'styled-components';
+import './index.css';
 
 const GlobalStyle = createGlobalStyle`
     html{
@@ -19,7 +20,6 @@ const GlobalStyle = createGlobalStyle`
       font-size: 14px;
       height : 100%;
       width : 100%;
-      background-color: #353F4B;
       @media (max-width: 1200px) {
         font-size: 14px
       }

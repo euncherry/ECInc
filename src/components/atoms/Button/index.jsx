@@ -4,8 +4,9 @@ import styled from "styled-components"
 const ButtonComponent = styled.input.attrs(props => ({ type: "button" }))`
  /* width: 15rem;
   height: 4rem; */
+  transition:  0.3s ease; 
   height : ${props => props.height || `auto`};
-  border-radius: 8px;
+  border-radius: 3px;
   justify-self: center;
   display: flex;
   align-items: center;
@@ -22,7 +23,7 @@ const ButtonComponent = styled.input.attrs(props => ({ type: "button" }))`
                 `
             case "large":
                 return `
-                    padding : 10px 50px;
+                    padding : 17px 50px;
                 `
             default:
                 return `
@@ -40,7 +41,7 @@ ${props => {
                     box-shadow :  0px 0px 5px 0px #88898A;
                     &:hover{
                         box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
-                        
+                    
                     }
                     &:active {
                         
@@ -48,26 +49,36 @@ ${props => {
             `
             case "black":
                 return `
-                box-shadow :  0px 0px 5px 0px #88898A;
-                background-color: #383838;
+                background-color: ##d9d9d9;
                 font-weight : 400;
-                color : #ffffff;
+                color : #000000;
                 &:hover{
-                    background-color: #2f2f2f;
+                    background : #bdbdbda3;
                     }
                 &:active {
-                    }
+                    box-shadow: inset 0.2rem 0.2rem 0.7rem #5b667e, inset -0.2rem -0.2rem 0.5rem #b2b1b1;
+                }
+            `
+            case "active":
+                return `
+                background-color: #626365;
+                border: 1px solid #838383;
+                color : #FFFFFF;
+               
             `
             default:
                 return `
-                background-color: #B7BBBD;
-                border: 1px solid #88898A;
-                color : #FFFFFF;
+                background-color: #edeff2;
+                border: 1px solid #697592;
+                border-radius : 3px;
+                box-shadow : none;
+                color : #697592;
                 &:hover{
                     color: #5b667e;
+                    background : #a2c8e075;
                     }
                 &:active {
-                    box-shadow: inset 0.2rem 0.2rem 0.5rem #9a9a9a, inset -0.2rem -0.2rem 0.5rem #B7BBBD;
+                    box-shadow: inset 0.2rem 0.2rem 0.7rem #5996ba, inset -0.2rem -0.2rem 0.5rem #7ba4ba;
                 }
             `
         }
@@ -75,10 +86,14 @@ ${props => {
     
     
     ${props => props.bold ? `font-weight : bold` : null}
-    ${props => (props.block) ? `width : 90%;` : null}
+    ${props => (props.block) ? `width : 100%;` : null}
+    
+    ${props => (props.imgUrl) ? `width : 100%;` : null}
+
+
 `
 
-const Button = ({ href, size, types, fontSize, block, value, onClick, bold, plane, height }) => (
+const Button = ({ href, size, types, fontSize, block, value, onClick, bold, plane, height, }) => (
     <>
         <ButtonComponent href={href} size={size} fontSize={fontSize} types={types} height={height}
             plane={plane} block={block} value={value} bold={bold} onClick={onClick}>

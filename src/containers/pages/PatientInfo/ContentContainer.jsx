@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import MainContent from "../../../components/organisms/Main/Content/index"
+import PatientInfoContent from "../../../components/organisms/PatientInfo/Content/index"
 
 
 const ContentContainer = ({
@@ -126,7 +126,7 @@ const ContentContainer = ({
 
     return (
         <>
-            <MainContent
+            <PatientInfoContent
                 user={user} setUser={setUser}
 
                 btnData={btnData}
@@ -138,10 +138,15 @@ const ContentContainer = ({
                 onClickActivityRecord={onClickActivityRecord}
                 onClickConfigSetting={onClickConfigSetting}
 
-                getNowTime={getNowTime} />
-        </>
+                getNowTime={getNowTime}
 
+
+            />
+
+        </>
     )
+
+
 }
 
-export default ContentContainer
+export default ContentContainer;
