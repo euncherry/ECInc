@@ -1,14 +1,22 @@
 {
   "files": {
-    "main.css": "/eclnc/static/css/main.244f5734.css",
-    "main.js": "/eclnc/static/js/main.88087ac2.js",
+    "main.css": "/eclnc/static/css/main.34a1a593.css",
+    "main.js": "/eclnc/static/js/main.6e639792.js",
     "static/js/496.72c35c70.chunk.js": "/eclnc/static/js/496.72c35c70.chunk.js",
+    "static/media/upperTool.png": "/eclnc/static/media/upperTool.cb8434247e26a9d0a6dc.png",
+    "static/media/lowerTool.png": "/eclnc/static/media/lowerTool.cb9792c8eb18443a64fa.png",
     "static/media/boy.png": "/eclnc/static/media/boy.f7ed126dc444a771dccf.png",
+    "static/media/upperProgress.png": "/eclnc/static/media/upperProgress.3a0213fc6b55af9518fd.png",
+    "static/media/wristTool.png": "/eclnc/static/media/wristTool.4dd25635b5f9570fcc25.png",
+    "static/media/wristProgress.png": "/eclnc/static/media/wristProgress.88e07fb42562b95c8620.png",
     "static/media/fitness.png": "/eclnc/static/media/fitness.7532f77a2804a68ff968.png",
+    "static/media/lowerProgress.png": "/eclnc/static/media/lowerProgress.728f2f73b87373b9f490.png",
+    "static/media/strengthNum.png": "/eclnc/static/media/strengthNum.fc87675deff42dc75cb8.png",
     "static/media/background.png": "/eclnc/static/media/background.9332e99abb7050f29a5e.png",
     "static/media/fit_setting.png": "/eclnc/static/media/fit_setting.a8098a43417af8832a0e.png",
     "static/media/set_graph.png": "/eclnc/static/media/set_graph.08252536b3ebf9b0cf38.png",
     "static/media/bodyGraph.png": "/eclnc/static/media/bodyGraph.d397904a0c6553f1a22d.png",
+    "static/media/exerciseGraph.png": "/eclnc/static/media/exerciseGraph.b55d340a94f187c18f62.png",
     "static/media/today_graph.png": "/eclnc/static/media/today_graph.fcbf26bac0e8f28ddea7.png",
     "static/media/weekly_graph.png": "/eclnc/static/media/weekly_graph.a08de155c5dfab3b9a9b.png",
     "static/media/mainPageIcon.png": "/eclnc/static/media/mainPageIcon.d0a3130ca69448d492d1.png",
@@ -25,14 +33,16 @@
     "static/media/headerLogo.png": "/eclnc/static/media/headerLogo.ebca816a85b89e2effec.png",
     "static/media/signupIcon.png": "/eclnc/static/media/signupIcon.afc0d57b0492ec446b1f.png",
     "static/media/RFID_Num.png": "/eclnc/static/media/RFID_Num.feca79f141c39315ef3f.png",
+    "static/media/leftTime.png": "/eclnc/static/media/leftTime.dc8d9254a5f162c65261.png",
+    "static/media/progressRate.png": "/eclnc/static/media/progressRate.a601858b909cd5ef0d19.png",
     "static/media/body.png": "/eclnc/static/media/body.408801bc9280856942c2.png",
     "index.html": "/eclnc/index.html",
-    "main.244f5734.css.map": "/eclnc/static/css/main.244f5734.css.map",
-    "main.88087ac2.js.map": "/eclnc/static/js/main.88087ac2.js.map",
+    "main.34a1a593.css.map": "/eclnc/static/css/main.34a1a593.css.map",
+    "main.6e639792.js.map": "/eclnc/static/js/main.6e639792.js.map",
     "496.72c35c70.chunk.js.map": "/eclnc/static/js/496.72c35c70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.244f5734.css",
-    "static/js/main.88087ac2.js"
+    "static/css/main.34a1a593.css",
+    "static/js/main.6e639792.js"
   ]
 }
