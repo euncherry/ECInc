@@ -105,12 +105,12 @@ const HomeContent = ({
 
                                         </Col>
                                         <Col span={4} justify={"center"} align={"center"}>
-                                            <Card imgSrc={graphIcon} width={"11rem"} />
+                                            <Card imgSrc={graphIcon} width={"11rem"} typoValue={"운동설정"} onClick={() => navigate('/exercisesetting')} />
 
 
                                         </Col>
                                         <Col span={4} justify={"center"} align={"center"}>
-                                            <Card imgSrc={configIcon} width={"8rem"} />
+                                            <Card imgSrc={configIcon} width={"8rem"} typoValue={"운동선택"} onClick={() => navigate('/selectpart')} />
 
 
                                         </Col>

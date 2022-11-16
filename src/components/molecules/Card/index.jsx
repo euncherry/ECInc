@@ -7,7 +7,7 @@ import styled from 'styled-components'
 const MeritBox = styled.div`
 cursor: pointer;
 display: flex;
-justify-content: space-evenly;
+justify-content: center;
 -webkit-box-align: center;
 align-items: center;
 flex-direction: column;
@@ -39,12 +39,13 @@ const Img = styled.img.attrs((props) => ({
 `
 
 
-const Card = ({ onClick, imgSrc, width }) => {
+const Card = ({ onClick, imgSrc, width, typoValue }) => {
     return (
         <>
             <MeritBox onClick={onClick} >
                 <>
                     <Img src={imgSrc} width={width}></Img>
+                    <Typo size={"1.5rem"} color={"#4d4d4d"}>{typoValue}</Typo>
                 </>
 
             </MeritBox>

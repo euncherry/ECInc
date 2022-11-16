@@ -3,6 +3,7 @@ import styled from "styled-components"
 import { Col, Row } from "../index"
 import { Typo, Image, Button, Modal, LoginModalForm } from "../../components"
 import headerLogo from "../../assets/icons/headerLogo.png"
+import { useNavigate } from "react-router-dom"
 
 const HeaderStyle = styled.div`
     width : 100%;
@@ -26,6 +27,9 @@ const HeaderLoginSection = styled.div`
 
 
 const Header = ({ position }) => {
+
+    const navigate = useNavigate();
+
     const [userInfo, setUserInfo] = useState({
         logined: false,
     })
@@ -57,7 +61,7 @@ const Header = ({ position }) => {
             <HeaderStyle position={position} >
                 <Row>
                     <Col span={12} justify={"space-between"} align={"center"}>
-                        <Image src={headerLogo} width={"15rem"}></Image>
+                        <Image src={headerLogo} width={"15rem"} cursor={"pointer"} onClick={() => navigate('/')} ></Image>
 
                         <HeaderLoginSection>
 
