@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 import ContentContainer from "../../containers/pages/PatientInfo/ContentContainer";
 import { Header } from "../../layout";
 
@@ -10,14 +10,21 @@ const WholeWrapper = styled.div`
   scroll-behavior: smooth;
   /* border : 3px blue solid; */
 `
+const GlobalStyle = createGlobalStyle`
+  html, body {
+    scroll-behavior: smooth;
+    background-color: ${(props) => (props.role === 'ADMIN' ? '#f6f6f6' : '#e3f0fa')};;
+  }
+`;
 
 
 const PatientInfo = () => {
     return (
         <>
-
+            <GlobalStyle role={"ADMIN"} />
             <WholeWrapper>
                 <Header ></Header>
+
                 <ContentContainer />
 
             </WholeWrapper>

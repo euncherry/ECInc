@@ -111,30 +111,30 @@ const PatientInfoContent = ({
                             </Col>
                             <Col span={3}>
                                 <Typo size={"1.5rem"} weight={"300"} color={"#606060"}>인체그래프</Typo>
-                                <InfoWrapper border={"2px solid #eaeaea "} bgColor={"transparent"}>
+                                <InfoWrapper border={"2px solid #e0e0e0 "} bgColor={"transparent"}>
                                     <Image src={bodyGraph} width={'100%'}></Image>
                                 </InfoWrapper>
                             </Col>
                             <Col span={4.5}>
                                 <Typo size={"1.5rem"} weight={"300"} color={"#606060"}>기기사용</Typo>
-                                <InfoWrapper border={"2px solid #eaeaea "} bgColor={"transparent"}>
+                                <InfoWrapper border={"2px solid #e0e0e0 "} bgColor={"transparent"}>
                                     <Row align={"align"}>
                                         <Col span={12} justify={"space-between"} align={"center"}>
                                             <Col span={9} justify={"center"}>
                                                 {
                                                     (btnData.newSetting === true) ?
                                                         (
-                                                            <Image src={fitness_png} width={"90%"} fit={"fill"} />
+                                                            <Image src={fitness_png} width={"100%"} fit={"fill"} />
                                                         ) : (btnData.preSetting === true) ?
                                                             (
-                                                                <Image src={fitness_png} width={"90%"} fit={"fill"} />
+                                                                <Image src={fitness_png} width={"100%"} fit={"fill"} />
                                                             ) : (btnData.activityRecord === true) ?
                                                                 (
-                                                                    <Image src={set_record} width={"90%"} height={"30rem"} fit={"cover"} />
+                                                                    <Image src={set_record} width={"100%"} height={"30rem"} fit={"cover"} />
                                                                 ) : (btnData.configSetting === true) ?
                                                                     (
-                                                                        <Image src={fitSetting} width={"90%"} fit={"fill"} />
-                                                                    ) : <Image src={fitness_png} width={"90%"} fit={"fill"} />
+                                                                        <Image src={fitSetting} width={"100%"} fit={"fill"} />
+                                                                    ) : <Image src={fitness_png} width={"100%"} fit={"fill"} />
                                                 }
 
                                             </Col>

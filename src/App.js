@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
 
 function App() {
   const [user, setUser] = useState({
-    role: 'ADMIN',
+    role: 'USER',
   });
   return (
     <>

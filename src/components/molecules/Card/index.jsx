@@ -16,8 +16,7 @@ height: 23em;
 padding: 1em;
 box-sizing: border-box;
 border-radius: 4px;
-background: #f6f6f6;
-transition: all 0.3s ease 0.2s;
+transition: all 0.25s ease 0.2s;
 &:hover{
     background : #edeff273;
     box-shadow: rgb(199 199 199) 0.3em 0.3em 0.6em, rgb(255 255 255) -0.2em -0.2em 0.5em;

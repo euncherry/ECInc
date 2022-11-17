@@ -61,7 +61,7 @@ const Header = ({ position }) => {
             <HeaderStyle position={position} >
                 <Row>
                     <Col span={12} justify={"space-between"} align={"center"}>
-                        <Image src={headerLogo} width={"15rem"} cursor={"pointer"} onClick={() => navigate('/')} ></Image>
+                        <Image src={headerLogo} width={"13rem"} cursor={"pointer"} onClick={() => navigate('/')} ></Image>
 
                         <HeaderLoginSection>
 
@@ -76,7 +76,7 @@ const Header = ({ position }) => {
 
                         }
                         <Modal headerClose visible={isHeaderLoginModal.visible} closable={false} maskClosable={true}
-                            onClose={handleLoginModal.close} size={8} xs={8} sm={8} md={7} lg={7} xl={7} xxl={6}>
+                            onClose={handleLoginModal.close} size={9} xs={9} sm={8} md={7} lg={7} xl={7} xxl={6}>
                             <LoginModalForm isHeaderLoginModal={isHeaderLoginModal}
                                 LoginBtnOnclick={LoginBtnOnclick}
                                 SignupBtnOnclick={SignupBtnOnclick}

@@ -32,8 +32,8 @@ const ModalWrapper = styled.div`
   transition-duration: 0.3s, 0s;
   transition :display 0.25s ease;
   `:
-        null
-    };
+    null
+  };
  `
 
 
@@ -82,8 +82,8 @@ animation: modalComeIn 0.25s ease;
     transform: scale(1, 1);
   }
 }`
-        :
-        null}
+    :
+    null}
 
  `
 
@@ -132,7 +132,7 @@ position: relative;
 
 
 const stopBubbling = (e) => {
-    e.stopPropagation()
+  e.stopPropagation()
 }
 
 /**
@@ -147,41 +147,41 @@ const stopBubbling = (e) => {
  * @see antD Modal (사용법 antD 참조)
  */
 const Modal = ({ zIndex, headerClose, title, visible, closable, maskClosable,
-    onClose, children, size, xs, sm, md, lg, xl, xxl }) => {
+  onClose, children, size, xs, sm, md, lg, xl, xxl }) => {
 
 
 
-    return (
-        <>
-            <ModalWrapper
-                zIndex={zIndex}
-                visible={visible}
-                onClick={maskClosable ? onClose : null}
+  return (
+    <>
+      <ModalWrapper
+        zIndex={zIndex}
+        visible={visible}
+        onClick={maskClosable ? onClose : null}
+      >
+        <Row justify="center">
+          <Col span={size} xs={xs} sm={sm} md={md} lg={lg} xl={xl} xxl={xxl}>
+
+            <ModalContainer
+              visible={visible}
+              onClick={stopBubbling}
             >
-                <Row justify="center">
-                    <Col span={size} xs={xs} sm={sm} md={md} lg={lg} xl={xl} xxl={xxl}>
+              {closable && <CloseButton onClick={onClose}><VscClose></VscClose></CloseButton>}
 
-                        <ModalContainer
-                            visible={visible}
-                            onClick={stopBubbling}
-                        >
-                            {closable && <CloseButton onClick={onClose}><VscClose></VscClose></CloseButton>}
+              <ModalHeader headerClose={headerClose} >
+                {title}
+              </ModalHeader>
 
-                            <ModalHeader headerClose={headerClose} >
-                                {title}
-                            </ModalHeader>
+              <ModalContent visible={visible}>
+                {headerClose && closable && <CloseButton onClick={onClose}><VscClose></VscClose></CloseButton>}
+                {children}
+              </ModalContent>
+            </ModalContainer>
+          </Col>
+        </Row>
 
-                            <ModalContent visible={visible}>
-                                {headerClose && closable && <CloseButton onClick={onClose}><VscClose></VscClose></CloseButton>}
-                                {children}
-                            </ModalContent>
-                        </ModalContainer>
-                    </Col>
-                </Row>
-
-            </ModalWrapper>
-        </>
-    )
+      </ModalWrapper>
+    </>
+  )
 }
 
 export default Modal;

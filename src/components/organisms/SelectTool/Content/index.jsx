@@ -3,7 +3,7 @@ import { Row, Col, ContentStyle } from '../../../../layout'
 import { Typo, Image, Button } from "../../.."
 import styled from 'styled-components'
 import { Divider } from "antd"
-import upperTool from '../../../../assets/images/upperTool.png'
+import upperTool from '../../../../assets/images/fitness.png'
 import lowerTool from '../../../../assets/images/lowerTool.png'
 import wristTool from '../../../../assets/images/wristTool.png'
 import { AppstoreAddOutlined, } from '@ant-design/icons';

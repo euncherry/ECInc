@@ -49,7 +49,7 @@ ${props => {
             `
             case "black":
                 return `
-                background-color: ##d9d9d9;
+                background-color: #d9d9d9a8;
                 font-weight : 400;
                 color : #000000;
                 &:hover{

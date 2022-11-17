@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Typo, Image, Button, Divider, AntiTypo, Card, Modal } from "../../../"
 import { LoginModalForm } from "../../.."
 import mainIcon from "../../../../assets/icons/mainIcon.png"
-import lilltnessCover from "../../../../assets/images/background.png"
+import homeImg from "../../../../assets/images/homeImg.png"
 import userInfoIcon from "../../../../assets/icons/userInfoIcon.png"
 import loginIcon from "../../../../assets/icons/loginIcon.png"
 import scheduleIcon from "../../../../assets/icons/scheduleIcon.png"
@@ -13,13 +13,13 @@ import graphIcon from "../../../../assets/icons/graphIcon.png"
 import configIcon from "../../../../assets/icons/configIcon.png"
 import { useNavigate } from "react-router-dom"
 
+
 const MainLogoWrapper = styled.div`
 display: flex;
 justify-content: center;
 align-content: center;
 height: 550px;
 width : 100%;
-background-image: url(${lilltnessCover});
 background-size: cover;
 
 overflow: hidden;
@@ -46,18 +46,9 @@ const HomeContent = ({
                     <Col span={12} justify={"center"}>
                         <MainLogoWrapper>
                             <Row align={"center"} justify={"center"}>
-                                <Col span={6} align={"center"} justify={"center"}>
-                                    <Row align={"center"} justify={"center"} gutter={[10, 0]}>
-                                        <Col span={12} align={"center"} justify={"center"}>
-                                            <AntiTypo fontFamily={'Jalnan'} size={'4.5rem'} typo={["Let's", "start", 'LILLTNESS']} mainTypos={[2, 2]}></AntiTypo>
-                                        </Col>
-                                        <Col span={12} align={"center"} justify={"center"}>
-                                            <Typo fontFamily={"Gong"} size={"1.2rem"} color={"#303951"}>재활운동 관리가 어려울때 나만을 위한 재활운동 서비스</Typo>
-                                        </Col>
-                                    </Row>
-                                </Col>
-                                <Col span={6}>
-                                    <Image src={mainIcon}></Image>
+
+                                <Col span={12} align={"center"} justify={"center"}>
+                                    <Image src={homeImg} width={"90%"}></Image>
                                 </Col>
                             </Row>
                         </MainLogoWrapper>
@@ -88,7 +79,7 @@ const HomeContent = ({
 
                                         </Col>
                                         <Modal headerClose visible={isHeaderLoginModal.visible} closable={false} maskClosable={true}
-                                            onClose={handleLoginModal.close} size={8} xs={8} sm={8} md={7} lg={7} xl={7} xxl={6}>
+                                            onClose={handleLoginModal.close} size={10} xs={9} sm={8} md={7} lg={7} xl={7} xxl={6}>
                                             <LoginModalForm isHeaderLoginModal={isHeaderLoginModal}
                                                 LoginBtnOnclick={LoginBtnOnclick}
                                                 SignupBtnOnclick={SignupBtnOnclick}

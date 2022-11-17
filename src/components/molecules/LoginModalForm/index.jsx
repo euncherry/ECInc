@@ -1,28 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
+import { Tooltip } from "antd"
 import { Row, Col } from '../../../layout'
 import KakaoIcon from "../../../assets/icons/kakaoIcon.png"
 import NaverIcon from "../../../assets/icons/naverIcon.png"
 import RFIDIcon from "../../../assets/icons/RFIDIcon.png"
 import SignupIcon from "../../../assets/icons/signupIcon.png"
+import RFID_Num from "../../../assets/images/RFID_Num.png"
 import { Typo, Button, TextBox, LoadingIcon, Divider, Image } from '../..'
+
 const LoginModalForm = ({
     isHeaderLoginModal,
     LoginBtnOnclick,
     SignupBtnOnclick,
 }) => {
 
+    const [isRfid, setRfid] = useState({
+        rfid: false,
+    })
 
+    const handleLIsRfid = () => {
+        (isRfid.rfid === true) ? setRfid(() => ({ rfid: false })) : setRfid(() => ({ rfid: true }))
+    }
 
     return (
         <>
             <Row>
                 <Col span={12} style={{ padding: '7rem 5rem' }}>
-                    <Row justify={'space-evenly'} align={"center"}>
+                    <Row justify={'space-evenly'} align={"center"} gutter={[0, 10]}>
 
                         {/* SECTION login */}
                         {
                             (isHeaderLoginModal.type === 'login') ?
-                                <Col span={5} >
+                                <Col span={6} >
                                     <Row gutter={[5, 0]} align={'center'} justify={'center'}>
                                         <Col span={12} justify={'flex-start'}>
                                             <Typo size={'3rem'} weight={'700'} color={'#181818'}>로그인</Typo>
@@ -63,8 +72,8 @@ const LoginModalForm = ({
                         {
 
                             (isHeaderLoginModal.type === 'login') ?
-                                <Col span={4} align={'center'} justify={'center'} >
-                                    <Row gutter={[5, 0]} align={'center'} justify={'center'}>
+                                <Col span={5} align={'center'} justify={'center'} >
+                                    <Row gutter={[5, 0]} align={'center'} justify={'center'} >
                                         <Col span={12} justify={'flex-start'}>
                                             <Typo size={'2rem'} weight={'700'} color={'#181818'}>간편로그인</Typo>
                                         </Col>
@@ -80,10 +89,20 @@ const LoginModalForm = ({
 
                                             <Image src={KakaoIcon} width={"100%"} ></Image>
                                         </Col>
+
+
                                         <Col span={12} justify={'center'} style={{ marginTop: "0.3rem" }} >
 
-                                            <Image src={RFIDIcon} width={"100%"} ></Image>
+                                            <Image src={RFIDIcon} width={"100%"} cursor={"pointer"} onClick={handleLIsRfid} ></Image>
+
                                         </Col>
+                                        {
+                                            (isRfid.rfid === true) ?
+                                                <Col span={12} justify={'center'} style={{ marginTop: "0.3rem", }} >
+                                                    <Image src={RFID_Num} width={"100%"} ></Image>
+                                                </Col>
+                                                : null
+                                        }
                                         <Col span={12} justify={'center'} style={{ marginTop: "0.7rem" }} >
 
                                             <Image src={SignupIcon} width={"100%"} ></Image>
