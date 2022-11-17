@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/eclnc/static/css/main.34a1a593.css",
-    "main.js": "/eclnc/static/js/main.5c4684fa.js",
+    "main.js": "/eclnc/static/js/main.314f45d5.js",
     "static/js/496.4cb9f4b4.chunk.js": "/eclnc/static/js/496.4cb9f4b4.chunk.js",
-    "static/media/upperTool.png": "/eclnc/static/media/upperTool.cb8434247e26a9d0a6dc.png",
-    "static/media/lowerTool.png": "/eclnc/static/media/lowerTool.cb9792c8eb18443a64fa.png",
-    "static/media/boy.png": "/eclnc/static/media/boy.f7ed126dc444a771dccf.png",
+    "static/media/fitness.png": "/eclnc/static/media/fitness.5816a992302c766bf0af.png",
+    "static/media/upperTool.png": "/eclnc/static/media/upperTool.5816a992302c766bf0af.png",
+    "static/media/wristTool.png": "/eclnc/static/media/wristTool.bc3eae0a3934be053650.png",
     "static/media/upperProgress.png": "/eclnc/static/media/upperProgress.3a0213fc6b55af9518fd.png",
+    "static/media/lowerTool.png": "/eclnc/static/media/lowerTool.a6def875ccc0d1a3d481.png",
     "static/media/painLower.png": "/eclnc/static/media/painLower.947c747249f2b12dcb54.png",
     "static/media/painWrist.png": "/eclnc/static/media/painWrist.1475fa0438d7e043c004.png",
-    "static/media/wristTool.png": "/eclnc/static/media/wristTool.4dd25635b5f9570fcc25.png",
     "static/media/painUpper.png": "/eclnc/static/media/painUpper.06cd7295494090b0ad0f.png",
+    "static/media/homeImg.png": "/eclnc/static/media/homeImg.3ea644a7f15e0588027d.png",
     "static/media/wristProgress.png": "/eclnc/static/media/wristProgress.88e07fb42562b95c8620.png",
-    "static/media/fitness.png": "/eclnc/static/media/fitness.7532f77a2804a68ff968.png",
     "static/media/fit_setting.png": "/eclnc/static/media/fit_setting.59ec5874ea3cf833b3b7.png",
     "static/media/lowerProgress.png": "/eclnc/static/media/lowerProgress.728f2f73b87373b9f490.png",
+    "static/media/headerLogo.png": "/eclnc/static/media/headerLogo.a3cd0fe566b0aa3e2928.png",
     "static/media/strengthNum.png": "/eclnc/static/media/strengthNum.fc87675deff42dc75cb8.png",
-    "static/media/background.png": "/eclnc/static/media/background.9332e99abb7050f29a5e.png",
     "static/media/set_graph.png": "/eclnc/static/media/set_graph.08252536b3ebf9b0cf38.png",
     "static/media/graphIcon.png": "/eclnc/static/media/graphIcon.3b08bda9d3eb6f350fb4.png",
     "static/media/bodyGraph.png": "/eclnc/static/media/bodyGraph.d397904a0c6553f1a22d.png",
@@ -32,8 +32,8 @@
     "static/media/mainIcon.png": "/eclnc/static/media/mainIcon.1c2e1b92054028c980dc.png",
     "static/media/loginIcon.png": "/eclnc/static/media/loginIcon.624c6b56c62c77dab325.png",
     "static/media/naverIcon.png": "/eclnc/static/media/naverIcon.c75f642415f02b5bd1b4.png",
+    "static/media/boy.png": "/eclnc/static/media/boy.b4413dfa65526e43bc9b.png",
     "static/media/RFIDIcon.png": "/eclnc/static/media/RFIDIcon.2e6c50a10106f4a71f76.png",
-    "static/media/headerLogo.png": "/eclnc/static/media/headerLogo.ebca816a85b89e2effec.png",
     "static/media/signupIcon.png": "/eclnc/static/media/signupIcon.afc0d57b0492ec446b1f.png",
     "static/media/RFID_Num.png": "/eclnc/static/media/RFID_Num.feca79f141c39315ef3f.png",
     "static/media/leftTime.png": "/eclnc/static/media/leftTime.dc8d9254a5f162c65261.png",
@@ -41,11 +41,11 @@
     "static/media/body.png": "/eclnc/static/media/body.408801bc9280856942c2.png",
     "index.html": "/eclnc/index.html",
     "main.34a1a593.css.map": "/eclnc/static/css/main.34a1a593.css.map",
-    "main.5c4684fa.js.map": "/eclnc/static/js/main.5c4684fa.js.map",
+    "main.314f45d5.js.map": "/eclnc/static/js/main.314f45d5.js.map",
     "496.4cb9f4b4.chunk.js.map": "/eclnc/static/js/496.4cb9f4b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34a1a593.css",
-    "static/js/main.5c4684fa.js"
+    "static/js/main.314f45d5.js"
   ]
 }
