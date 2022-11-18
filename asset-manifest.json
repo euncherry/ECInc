@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/eclnc/static/css/main.34a1a593.css",
-    "main.js": "/eclnc/static/js/main.aa0d2013.js",
+    "main.css": "/eclnc/static/css/main.97e59f1e.css",
+    "main.js": "/eclnc/static/js/main.82a6c0b5.js",
     "static/js/496.4cb9f4b4.chunk.js": "/eclnc/static/js/496.4cb9f4b4.chunk.js",
     "static/media/fitness.png": "/eclnc/static/media/fitness.5816a992302c766bf0af.png",
     "static/media/upperTool.png": "/eclnc/static/media/upperTool.5816a992302c766bf0af.png",
@@ -14,6 +14,7 @@
     "static/media/homeImg.png": "/eclnc/static/media/homeImg.3ea644a7f15e0588027d.png",
     "static/media/wristProgress.png": "/eclnc/static/media/wristProgress.88e07fb42562b95c8620.png",
     "static/media/fit_setting.png": "/eclnc/static/media/fit_setting.59ec5874ea3cf833b3b7.png",
+    "static/media/ceo.png": "/eclnc/static/media/ceo.a570bfae0c9049f5ce1a.png",
     "static/media/lowerProgress.png": "/eclnc/static/media/lowerProgress.728f2f73b87373b9f490.png",
     "static/media/headerLogo.png": "/eclnc/static/media/headerLogo.a3cd0fe566b0aa3e2928.png",
     "static/media/strengthNum.png": "/eclnc/static/media/strengthNum.fc87675deff42dc75cb8.png",
@@ -40,12 +41,12 @@
     "static/media/progressRate.png": "/eclnc/static/media/progressRate.a601858b909cd5ef0d19.png",
     "static/media/body.png": "/eclnc/static/media/body.408801bc9280856942c2.png",
     "index.html": "/eclnc/index.html",
-    "main.34a1a593.css.map": "/eclnc/static/css/main.34a1a593.css.map",
-    "main.aa0d2013.js.map": "/eclnc/static/js/main.aa0d2013.js.map",
+    "main.97e59f1e.css.map": "/eclnc/static/css/main.97e59f1e.css.map",
+    "main.82a6c0b5.js.map": "/eclnc/static/js/main.82a6c0b5.js.map",
     "496.4cb9f4b4.chunk.js.map": "/eclnc/static/js/496.4cb9f4b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34a1a593.css",
-    "static/js/main.aa0d2013.js"
+    "static/css/main.97e59f1e.css",
+    "static/js/main.82a6c0b5.js"
   ]
 }
